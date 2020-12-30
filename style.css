@@ -21,6 +21,11 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
 }
+    
+button{
+    outline-style: none;
+    cursor: pointer;
+}    
 
 .wrapper{
     padding: 0;
