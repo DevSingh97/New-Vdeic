@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Scripts end-->
+
+    <title>Homeopathy Website</title>
+</head>
+
+<body>
+
+    <div class="slideup">
+        <a class="slide-up" href="#top"><img id="arr" src="arrow-up-s-line.png" alt=""></a>
+    </div>
+    <div class="wrapper">
+
+        <header>
+            <div id="top" class="contact-nav">
+                <ul class="contacts">
+                    <li class="contact">
+                        <i class="call-icon"><img src="Icon ionic-ios-call.svg" alt=""
+                                style="width: 0.938vw; height: 0.938vw;"></i>987654321 |</li>
+                    <li class="contact">
+                        <i class="plane-icon"><img src="Icon awesome-paper-plane.svg" alt=""
+                                style="width: 0.938vw; height: 0.938vw;"></i>xyz@homeopathy.com</li>
+                    <li class="contact social-media">
+                        <i class="twitter"><img src="twitter.svg" alt="" style="width: 0.99vw; height: 0.99vw;"></i><i
+                            class="facebook"><img src="facebook.svg" alt=""
+                                style="width: 0.99vw; height: 0.99vw;"></i><i class="instagram"><img src="instagram.svg"
+                                alt="" style="width: 0.99vw; height: 0.99vw;"></i>
+                    </li>
+                    <div class="contact-space">
+                    </div>
+                </ul>
+            </div>
+
+
+            <div class="main-nav">
+                <div class="logo"><img src="logo.svg" alt="logo"></div>
+                <ul class="main-nav__items">
+                    <li class="main-nav__item"> <a data-scroll href="#home">Home</a></li>
+                    <li class="main-nav__item"><a data-scroll href="#doc">Dr. Praveen </a></li>
+                    <li class="main-nav__item"><a data-scroll href="#whyhomeo"> Why Homeopathy? </a></li>
+                    <li class="main-nav__item"><a data-scroll href="#diseases">Diseases</a></li>
+                    <li class="main-nav__item"><a data-scroll href="#gallery">Gallery</a></li>
+                    <li class="main-nav__item"><a data-scroll href="#faq">FAQ</a></li>
+                    <li id="mybtn" class="main-nav__item nav-item-ctn">Book an Appointment</li>
+                </ul>
+            </div>
+            <div class="sidenav-btn">
+                <button class="btn" onclick="openNav()"><i class="material-icons">menu</i></button>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul class="main-nav__items">
+                    <li class="main-nav__item"><a data-scroll href="#home" onclick="closeNav()">Home</a></li>
+                    <li class="main-nav__item"><a data-scroll href="#doc" onclick="closeNav()">Dr. Praveen </a></li>
+                    <li class="main-nav__item"><a data-scroll href="#whyhomeo" onclick="closeNav()"> Why Homeopathy?
+                        </a></li>
+                    </li>
+                    <li class="main-nav__item"><a data-scroll href="#diseases" onclick="closeNav()">Diseases</a></li>
+                    <li class="main-nav__item"><a data-scroll href="#gallery" onclick="closeNav()">Gallery</a></li>
+                    <li class="main-nav__item"><a data-scroll href="#faq" onclick="closeNav()">FAQ</a></li>
+                    <li id="mybtn" class="main-nav__item nav-item-ctn">Book an Appointment</li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            
+            <div id="log">
+                <img id="logim" src="logo.svg" alt="">
+            </div>   
+            <!-- Section One Start-->
+
+            <section id="home" class="section-one" >
+                <div class="section-one-flex">
+                    <div class="section-one__images">
+                        <div class="section-one-image__purple"></div>
+                        <div class="section-one-image__bottles"></div>
+                        <div class="section-one-image__greenquote">
+                            <p class="section-one-author-quote">"Had an amazing experience, staff was very nice and
+                                helpful throughout the process"</p>
+                            <p class="section-one-author">by Amit Sharma</p>
+                        </div>
+                        <div class="section-one-image__purpledots"><img src="Repeat Grid 8 purple.svg" alt=""></div>
+                    </div>
+                    <div class="section-one-content">
+                        <h1><span>Cure Your Incurable Disease</span> <br>With Homeopathy & <br>No Side Effects
+                        </h1>
+                        <p>Homeopathy is a safe, gentle, and natural system of healing that works with 
+                            your body to relieve symptoms, restore itself, and improve your overall health.</p>
+                        <div class="section-one__buttons">
+                            <button id="mbt" class="btn">Get free consultation</button>
+                            <button class="btn btn-ctn btn-mob" >Learn more</button>
+                        </div>
+                        <div class="section-one__rating">
+                            <p><span id="fi">5.0</span> 
+                                <span class="stars"> <img src="Icon ionic-ios-star.svg" alt="">
+                                    <img src="Icon ionic-ios-star.svg" alt="">
+                                    <img src="Icon ionic-ios-star.svg" alt="">
+                                    <img src="Icon ionic-ios-star.svg" alt="">
+                                    <img src="Icon ionic-ios-star.svg" alt="">
+                                    <img id="google" src="Google.png" alt=""> 
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-one-image__greendots7">
+                    <img src="Repeat Grid 7.svg" alt="">
+                </div>
+            </section>
+            <!-- Section One End-->
+
+            <!-- Section Two Start-->
+            <section class="section-two" data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                <div>
+                    <div class="section-two-image__dots"></div>
+                    <h1 data-aos="fade-in">Recent Reviews on Google</h1>
+                    <div class="section-two__cards" >
+                        <div class="section-two__card">
+                            <img src="Image 1.png" alt="profile pic">
+                            <h2 class="name">Manoj Kumar</h2>
+                            <span class="stars"><img src="Icon ionic-ios-star.svg" alt="">
+                                <img src="Icon ionic-ios-star.svg" alt="">
+                                <img src="Icon ionic-ios-star.svg" alt="">
+                                <img src="Icon ionic-ios-star.svg" alt="">
+                                <img src="Icon ionic-ios-star.svg" alt="">
+                            </span>
+                            <p>"Treatment is very effective at affordable rate”</p>
+                        </div>
+                        <div class="section-two__card">
+                            <img src="Image 2.png" alt="profile pic">
+                            <h2 class="name">Ashish Singh</h2>
+                            <span class="stars"><img src="Icon ionic-ios-star.svg" alt="">
+                                <img src="Icon ionic-ios-star.svg" alt="">
+                                <img src="Icon ionic-ios-star.svg" alt="">
+                                <img src="Icon ionic-ios-star.svg" alt="">
+                                <img src="Icon ionic-ios-star-half.svg" alt=""></span>
+                            <p>“One of the best homoeopathic doctor in the locality!!”</p>
+                        </div>
+                        <div class="section-two__card">
+                            <img src="akhil.jpg" alt="profile pic">
+                            <h2 class="name">Vishal Singh</h2>
+                            <span class="stars"><img src="Icon ionic-ios-star.svg" alt="">
+                                <img src="Icon ionic-ios-star.svg" alt="">
+                                <img src="Icon ionic-ios-star.svg" alt="">
+                                <img src=" Icon ionic-ios-star.svg" alt="">
+                                <img src="Icon ionic-ios-star-half.svg" alt=""></span>
+                            <p>Most reliable homeopathic clinic in Varanasi…</p>
+                        </div>
+                    </div>
+                    <h2 id="dis" data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000" data-aos-easing="ease-in-out"
+                        class="quote">"Diseases that arise from inside must be treated from inside, not from outside"
+                    </h2>
+                </div>
+            </section>
+            <!-- Section Two End-->
+
+            <!-- Section Three Start-->
+            <section id="doc" class="section-three">
+                <div class="section-three-flex">
+                    <div class="section-three-images" data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                        <div class="section-three-image__purple"   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"></div> 
+                        <div id="img">
+                            <img src="Group 1200.png" alt="">
+                        </div>
+                        <div class="section-three-image__doctor"   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"></div>
+                        <div class="section-three-image__green"   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"></div>
+                        <div class="section-three-image__greendots"   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        </div>
+                    </div>
+                    <div class="section-three-content">
+                        <h1   data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">Dr Praveen Kumar</h1>
+                        <p   data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum elit id pulvinar
+                            porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum elit id
+                            pulvinar porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum elit
+                            id pulvinar porta.</p>
+                        <button class="btn"   data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" onclick="loremipsun()">Contact Me</button>
+                    </div>
+                </div>
+                <div id="dots" class="section-three-image__purpledots"><img src="Repeat Grid 8 purple.svg" alt=""> </div>
+            </section>
+            <!-- Section Three End-->
+
+            <!-- Section Four Start-->
+            <section id="whyhomeo" class="section-four"  data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+                <div>
+                    <div class="section-four-content-one">
+                        <h1>Why choose homeopathy?</h1>
+                        <p>Unlike other medication, homeopathic medicines are non-toxic 
+                            and harmless and do not have any adverse side effects.</p>
+                    </div>
+                    <div class="section-four__cards" >
+                        <div class="section-four__card">
+                            <img src="immunity.svg" alt="">
+                            <h3>No Side Effects</h3>
+                        </div>
+                        <div id="char" class="section-four__card charity">
+                            <img src="charity.svg" alt="">
+                            <h3>Permanent Results</h3>
+                        </div>
+                        <div id="st" class="section-four__card">
+                            <img src="healthy.svg" alt="">
+                            <h3>Strengthens Immunity</h3>
+                        </div>
+                        
+                        <div class="section-four-image__greendotsone"></div>
+                    </div>                    
+                    <div class="section-four__cards1" data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                        <div class="section-four__card">
+                            <img src="noun_group of people_566435.svg" alt="">
+                            <h3>Safe For All</h3>
+                        </div>
+                        <div class="section-four__card charity">
+                            <img src="money-bag.svg" alt="">
+                            <h3>Low cost
+                                Treatment</h3>
+                        </div>
+                        <div class="section-four__card">
+                            <img src="traditional-medicine.svg" alt="">
+                            <h3>Holistic
+                                Approach</h3>
+                        </div>
+                        
+                        <div class="section-four-image__greendotsone">
+                            <img src="repeat grid 8 green.svg" alt="">
+                        </div>
+                    </div>
+
+                    <h2 id="nat"   data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">"The natural healing force within each of us is the greatest force in getting
+                        well"</h2>
+
+                    <div class="section-four-content-two"  data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                        <h1  data-aos="fade-up">What your doctors aren't telling you?</h1>
+                        <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum elit id pulvinar
+                            porta. Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+                    <div class="section-four-image__greendotsthree"><img src="Repeat Grid 7.svg" alt=""></div>
+                    <div class="section-four-comparison"  data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                        <div class="comparison-head-flex" >
+                            <h2 class="comparison-space"></h2>
+                            <h3 id="all" >Allopathy</h3>
+                            <h3 id="hom">Homeopathy</h3>
+                        </div>
+
+                        <div class="section-four-comparison__card" >
+                            <h2 >Cost</h2>
+
+                            <h3  >₹5000</h3>
+                            <h3 class="green"  >₹1000</h3>
+                        </div>
+                        <div class="section-four-comparison__card">
+                            <h2>Time to cure</h2>
+
+                            <h3 >4 Years</h3>
+                            <h3 class="green" >2 Years</h3>
+                        </div>
+                        <div class="section-four-comparison__card">
+                            <h2>Side effects</h2>
+
+                            <h3 >Plenty</h3>
+                            <h3 class="green" >None</h3>
+                        </div>
+                        <div class="section-four-comparison__card">
+                            <h2 >Results</h2>
+
+                            <h3 >Temporary</h3>
+                            <h3 class="green"  >Permanent</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Section Four End-->
+
+            <!-- Section Five Start-->
+            <section id="diseases" class="section-five">
+                <div>
+                    <div class="section-five-content"  data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                        <h1 id="cure">There’s a cure for everything</h1>
+                        <p id="curep" >In homeopathy you can find cure from acute diseases like 
+                        <br> Cold to chronic diseases like asthma</p>
+                    </div>
+                    <div class="section-five__cards"  data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                        <!-- <div class="section-five-fb1"> -->
+                        <div id="ek">
+                            <div id="as" class="section-five__card" >
+                                <img  src="lungs.svg" alt="" height="130px">
+                                <p  class="section-five-caption">Asthma</p>
+                            </div>
+                            <div id="an" class="section-five__card">
+                                <img  src="spine.svg" alt="" height="130px">
+                                <p  class="section-five-caption">Ankylosing Spondylitis</p>
+                            </div>
+                        </div>
+                        <div id="ek">
+                            <div id="fr" class="section-five__card">
+                                <img  src="cough.svg" alt="" height="130px">
+                                <p   class="section-five-caption">Frequent Cough</p>
+                            </div>
+                            <div id="ne" class="section-five__card">
+                                <img src="kidney.svg" alt="" height="130px">
+                                <p  class="section-five-caption">Nephrotic Syndrome</p>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                        <!-- <div class="section-five-fb2"> -->
+                       <div id="spart">
+                        <div id="ek">
+                            <div id="Mi" class="section-five__card">
+                                <img src="headache.svg" alt="" height="130px">
+                                <p  class="section-five-caption">Migrane</p>
+                            </div>
+                            <div id="Ha" class="section-five__card">
+                                <img src="hair.svg" alt="" height="130px">
+                                <p  class="section-five-caption">Hairfall</p>
+                            </div>
+                        </div>
+                        <div id="ek">
+                            
+                        <div id="Ch" class="section-five__card">
+                            <img src="inhaler.svg" alt="" height="130px">
+                            <p class="section-five-caption">Child Asthma</p>
+                        </div>
+                        <div id="Ec" class="section-five__card">
+                            <img  src="dermatitis.svg" alt="" height="130px">
+                            <p  class="section-five-caption">Eczema</p>
+                            <!-- </div> -->
+                       </div>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <div data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" id="btn">
+                        <h2 id="many"> And Many More</h2>
+                    </div>
+
+                    <h2 id="qute" class="quote"   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">"Homeopathy is a system of natural medicine based upon the ancient principle of
+                        “like cures like.”</h2>
+                </div>
+            </section>
+            <!-- Section Five End-->
+
+            <!-- Section Six Start-->
+            <section id="testimonials" class="section-six">
+                <div>
+                    <h1  data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">1000+ patients cured</h1>
+                    <div class="section-six__cards">
+                        <div class="section-six__card">
+                            <h3 class="quote"   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">Jane Doe</h3>
+                            <h6  data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">April 20, 2020</h6>
+                            <span class="stars"><img   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"src="Icon ionic-ios-star.svg" alt="">
+                                <img  data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" src="Icon ionic-ios-star.svg" alt="">
+                                <img  data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" src="Icon ionic-ios-star.svg" alt="">
+                                <img  data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" src="Icon ionic-ios-star.svg" alt="">
+                                <img  data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" src="Icon ionic-ios-star-half.svg" alt=""></span>
+                            <p  data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum elit id pulvinar
+                                porta. Lorem ipsum dolor sit" amet, consectetur adipiscing elit. In vestibulum elit id
+                                pulvinar porta</p>
+                            <div class="section-six__ba-images"    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img">
+                                        <img data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000" src="after.png" width="300" height="200">
+                                    </div>
+                                    <div class="img-comp-img img-comp-overlay">
+                                        <img    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                                        data-aos-easing="ease-in-out" src="before.png" width="300" height="200">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-six__card">
+                            <h3 data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                            data-aos-easing="ease-in-out" >Jane Doe</h3>
+                            <h6  data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">April 20, 2020</h6>
+                            <span class="stars"><img data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                                data-aos-easing="ease-in-out" src="Icon ionic-ios-star.svg" alt="">
+                                <img data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" src="Icon ionic-ios-star.svg" alt="">
+                                <img data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" src="Icon ionic-ios-star.svg" alt="">
+                                <img data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" src="Icon ionic-ios-star.svg" alt="">
+                                <img data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" src="Icon ionic-ios-star-half.svg" alt=""></span>
+                            <p  data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum elit id pulvinar
+                                porta. Lorem ipsum dolor sit" amet, consectetur adipiscing elit. In vestibulum elit id
+                                pulvinar porta</p>
+                            <div class="section-six__ba-images"    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                                data-aos-easing="ease-in-out">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img">
+                                        <img   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                                        data-aos-easing="ease-in-out" src="after.png" width="300" height="200">
+                                    </div>
+                                    <div class="img-comp-img img-comp-overlay">
+                                        <img    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                                        data-aos-easing="ease-in-out" src="before.png" width="300" height="200">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-six__card">
+                            <h3   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">Jane Doe</h3>
+                            <h6  data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">April 20, 2020</h6>
+                            <span class="stars"><img data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" src="Icon ionic-ios-star.svg" alt="">
+                                <img data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" src="Icon ionic-ios-star.svg" alt="">
+                                <img data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" src="Icon ionic-ios-star.svg" alt="">
+                                <img data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" src="Icon ionic-ios-star.svg" alt="">
+                                <img data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" src="Icon ionic-ios-star-half.svg" alt=""></span>
+                            <p  data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum elit id pulvinar
+                                porta. Lorem ipsum dolor sit" amet, consectetur adipiscing elit. In vestibulum elit id
+                                pulvinar porta</p>
+                            <div class="section-six__ba-images"    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img">
+                                        <img    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                                        data-aos-easing="ease-in-out" src="after.png">
+                                    </div>
+                                    <div class="img-comp-img img-comp-overlay">
+                                        <img   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                                        data-aos-easing="ease-in-out" src="before.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Section Six End-->
+
+            <!-- Section Seven Start-->
+            <section class="section-seven">
+                <div>
+                    <div class="section-seven-content">
+                        <h1   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">Curability Test</h1>
+                        <p   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum elit id pulvinar
+                            porta. Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+
+                    <div class="section-seven-flex">
+                        <div class="badge">
+                            <img    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                            data-aos-easing="ease-in-out" src="curabilitybadge.svg" alt="" style="height: 26.667vw; width: 26.667vw">
+                            <p    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">Curability Test</p>
+                        </div>
+ 
+                        <div class="section-seven__cards">
+                            <!-- <div class="section-seven-fb1"> -->
+                            <div class="section-seven__card">
+                                <div class="section-seven__lungs"></div>
+                                <img    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" src="lungs.svg" alt="" height="130px">
+                                <p   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" class="section-seven-caption">Asthma</p>
+                            </div>
+                            <div class="section-seven__card">
+                                <img    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" src="spine.svg" alt="" height="130px">
+                                <p   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" class="section-seven-caption">Ankylosing Spondylitis</p>
+                            </div>
+                            <div class="section-seven__card">
+                                <img    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" src="cough.svg" alt="" height="130px">
+                                <p   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" class="section-seven-caption">Frequent Cough</p>
+                            </div>
+                            <!-- </div> -->
+
+                            <!-- <div class="section-seven-fb2"> -->
+                            <div class="section-seven__card">
+                                <img    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" src="headache.svg" alt="" height="130px">
+                                <p   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" class="section-seven-caption">Migrane</p>
+                            </div>
+                            <div class="section-seven__card">
+                                <img    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" src="hair.svg" alt="" height="130px">
+                                <p   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" class="section-seven-caption">Hairfall</p>
+                            </div>
+                            <div class="section-seven__card">
+                                <img    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" src="inhaler.svg" alt="" height="130px">
+                                <p   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" class="section-seven-caption">Child Asthma</p>
+                            </div>
+                            <!-- </div> -->
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <button class="btn"    data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" onclick="loremipsun()">Take Test</button>
+            </section>
+            <!-- Section Seven End-->
+
+            <!-- Section Eight Start-->
+            <section id="gallery" class="section-eight">
+                <h1   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">Gallery</h1>
+                <div class="section-eight-flex">
+                    <div class="large-img">
+                        <img   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" src="passage@2x.png" alt="">
+                    </div>
+                    <div class="small-image-flex">
+                        <div class="small-img1">
+                            <img   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" src="plant.png" alt="">
+                            <img   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" src="waiting.png" alt="">
+                        </div>
+                        <div class="small-img2">
+                            <img   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" src="Mask Group 5.png" alt="">
+                            <img   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" src="room.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Section Eight End-->
+            <!-- Section Nine Start-->
+            <section class="section-nine"   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                <h1 data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                    Our Homeopathy Clinics
+                </h1>
+                <div id="maincon"  data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                    <div id="left">
+                        <img src="Group 12453.png" alt="">
+                    </div>
+                    <div id="right">
+                        <div id="add">
+                            <h3>Bhojubeer Center</h3>
+                            <p>Sindhora Rode, Narayanpur Sarsuali 
+                                (in front SBI ATM), Varanasi, 
+                                Uttar Pradesh 221003
+                            </p>
+                            <h6>Get Directions</h6>
+                        </div>
+                        <div id="add1">
+                            <h3>Mumbai Headquarter</h3>
+                            <p>37 , Sunder Muneshwar Yadav Chawl, 
+                                S V Road, Opp Shiv Sena Office
+                                ambavadi, Dahisar
+                            </p>
+                            <h6>Get Directions</h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Section Nine End-->
+
+            <!-- Section Ten Start-->
+            <section class="section-ten">
+                <div class="section-ten-flex">
+                    <div class="section-ten-content"   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                        <h1 >Not
+                            Convinced Yet?</h1>
+                        <p   data-aos="fade-up">Take
+                            a 15 min Free Consultation from our expert Lorem ipsum dolor sit emit consectetur adipiscing
+                            elit. In vestibulum elit id pulvinar porta. Lorem ipsum dolor sit amet. consectetur </p>
+                        <button class="btn" onclick="loremipsun()">Get free consultation</button>
+                    </div>
+                    <div class="section-ten__images" data-aos="fade-up"  data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                        <div class="section-ten-image__purple"></div>
+                        <div class="section-ten-image__nurse"></div>
+                        <div id="purpledots">
+                            <img src="Repeat Grid 7 purple.svg" alt="">
+                        </div>
+                        <div class="section-ten-image__green"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- Section Ten End-->
+
+            <!-- Section Eleven Start-->
+            <section id="blog" class="section-eleven">
+                <div>
+                    <h1   data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">Blog</h1>
+                    <div class="section-eleven__cards">
+                        <div class="section-eleven__card"   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                            <div class="section-eleven-card-image"></div>
+                            <div class="section-eleven-card-content">
+                                <h2 class="section-eleven-badge">POPULAR</h2>
+                                <p class="section-eleven-heading">How to Keep Going When You Don’t Know What’s Next</p>
+                                <p class="section-eleven-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    In vestibulum elit id pulvinar porta. Lorem ipsum dolor sit amet, consectetur</p>
+                                <p class="section-eleven-date">Published: 20 April</p>
+                            </div>
+
+                        </div>
+                        <div class="section-eleven__card"   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                            <div class="section-eleven-card-image"></div>
+                            <div class="section-eleven-card-content">
+                                <h2 class="section-eleven-badge" >POPULAR</h2>
+                                <p class="section-eleven-heading">How to Keep Going When You Don’t Know What’s Next</p>
+                                <p class="section-eleven-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    In vestibulum elit id pulvinar porta. Lorem ipsum dolor sit amet, consectetur</p>
+                                <p class="section-eleven-date">Published: 20 April</p>
+                            </div>
+                        </div>
+                        <div class="section-eleven__card"   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                            <div class="section-eleven-card-image"></div>
+                            <div class="section-eleven-card-content">
+                                <h2 class="section-eleven-badge">POPULAR</h2>
+                                <p class="section-eleven-heading">How to Keep Going When You Don’t Know What’s Next</p>
+                                <p class="section-eleven-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    In vestibulum elit id pulvinar porta. Lorem ipsum dolor sit amet, consectetur</p>
+                                <p class="section-eleven-date">Published: 20 April</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn" onclick="loremipsun()"> Load More</button>
+                </div>
+            </section>
+            <!-- Section Eleven End-->
+            <!-- Section Twelve Start-->
+            <section id="faq" class="section-twelve">
+                <div  data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                    <h1  >Frequently Asked Questions</h1>
+                    <div class="section-twelve__questions">
+
+                        <!-- <div class="section-twelve__question" data-aos="slide-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="900">
+                            <p></p>
+                        </div> -->
+
+                        <div class="section-twelve__question">
+
+
+                            <details>
+                                <summary>
+                        What are the treatment fees/charges of Dr Ashok?
+                                    <i class="expland-icon material-icons">keyboard_arrow_down</i>
+
+
+                                </summary>
+                                <p>At Dr Batra’s the treatment fee varies depending on the duration of the treatment
+                                    which could be monthly, 6 monthly, annual and even longer. Hair treatment solutions
+                                    at Dr Batra’s comprise of a mix of homeopathy and aesthetic treatment using
+                                    advanced technology. The expert trichologist will advise a treatment plan depending
+                                    on the grad and degree of hair loss he/she finds during the detailed
+                                    Video-microscopy evaluation. Based on this evaluation the treatment costs vary
+                                    from Rs 500 – Rs 2000 EMI. These charges include all medicine and senior doctor
+                                    consultations for the duration of the set treatment plan. Dr Batra’s offers a range of
+                                    payment methods include – cash, debit/credit cards, Paytm, Google Pay,
+                                    EMI and more.
+                                    </p>
+                            </details>
+                        </div>
+
+                        <div class="section-twelve__question"  >
+
+                            <details>
+                                <summary >
+                        How do I know that my homeopathic doctor is treating my illness accurately?
+                                    <i class="expland-icon material-icons">keyboard_arrow_down</i>
+
+                                </summary>
+                                <p >Homeopathic treatment will help you observe improvement in the symptoms of your
+                        disease. This is probably the best indication that your doctor is following the right
+                        course of treatment. There are also medical evaluation tests like blood tests, X-rays,
+                        etc., which will help you evaluate the success of treatment provided. Additionally, at
+                        Dr Ashok™, in case of skin disorders, you can check your response to the treatment
+                        and improvement in your condition with the help of advanced technology like India’s
+                        first 3D imaging device, even before it is visible to the naked eye. This saves your
+                        money as well as time.
+                        </p>
+                            </details>
+
+                        </div>
+                        <div class="section-twelve__question" >
+
+                            <details>
+                                <summary >
+                        Can I combine homeopathy with allopathic treatment?
+                                    <i class="expland-icon material-icons">keyboard_arrow_down</i>
+                                </summary>
+                                <p >Yes, homeopathy can complement allopathic treatment. If you have been taking
+                        allopathic medication for a long time, it is not advisable to stop immediately. In such
+                        cases, your homeopathic doctor will advise you to start homeopathic treatment
+                        alongside allopathy. As your condition improves, you may reduce the consumption of
+                        allopathic medicines gradually. Clinical evidence shows that conventional medicine
+                        and homeopathy work well together in treating certain disorders. One such research
+                        was conducted in Athens to check the compatibility of homeopathic and allopathic
+                        medicines in controlling diabetes. It was found that a group treated only with
+                        conventional medicine showed 47% improvement, while the one treated with
+                        allopathic and homeopathic medicine together showed an impressive
+                        97% improvement.</p>
+                            </details>
+                        </div>
+
+
+                        <div class="section-twelve__question" >
+
+                            <details>
+                                <summary >
+                        Do homeopathic medicines have side-effects?
+                                    <i class="expland-icon material-icons">keyboard_arrow_down</i>
+
+                                </summary>
+                                <p   data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">No, homeopathic medicines do not cause any side-effects. Homeopathy is a natural,
+                        safe as well as effective method of healing. Homeopathic medicines are made from
+                        natural sources like plants and minerals, thus causing no side-effects, even if you take
+                        them throughout your lifetime. They are absolutely non-toxic and non-habit forming,
+                        and the cure is safe and sure.
+                        </p>
+                            </details>
+                        </div>
+
+
+                        <div class="section-twelve__question" >
+
+
+
+                            <details>
+                                <summary>
+                                    Is homeopathy merely psychological?
+                                    <i class="expland-icon material-icons">keyboard_arrow_down</i>
+
+                                </summary>
+                                <p>The ‘placebo effect’ can be described as a positive change seen after a medical
+                                    treatment, which is solely caused by the patient’s psychological response to the
+                                    treatment. After several clinical trials conducted to prove efficacy of homeopathic
+                                    medicine, researchers have confirmed the healthy, healing benefits of homeopathy
+                                    that went far beyond what could be explained purely by the placebo effect.
+                                    Homeopathy acts in children, animals and also on plants. It shows effective results in
+                                    infants too, even in conditions like abdominal colic. This would not have been possible
+                                    if homeopathic remedies were placebos. Additionally, with countless cured cases and
+                                    satisfied patients, it is difficult to believe that homeopathy would have been so
+                                    popular and successful in around 180 countries across the world for over 200 years
+                                    with just a placebo effect.
+                                    </p>
+                            </details>
+                        </div>
+
+                        <div class="section-twelve__question" >
+
+
+
+                            <details>
+                                <summary>
+                        For how long does one need to take homeopathic medicine?
+                                    <i class="expland-icon material-icons">keyboard_arrow_down</i>
+
+                                </summary>
+                                <p >You might see an improvement in your condition within a few weeks of starting
+                        homeopathic treatment; on the other hand, it might even take a few years to see
+                        positive results. The duration of homeopathic treatment depends a lot on factors like
+                        the duration of your illness, progress of the disorder and earlier treatments you may
+                        have taken for the same. For example, if you are suffering from arthritis since 8-10
+                        years, you might have to take homeopathic medicines for at least 2-3 years to see an
+                        improvement in your condition. This does not mean you can stop your treatment. You
+                        might have to continue with homeopathic medicines for some more time to get
+                        completely cured.
+                        </p>
+                            </details>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </section>
+            <!--Section Twelve End-->
+        </main>
+
+        <footer>
+            <div>
+                <p>Copyright ©2020 All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="imageba.js"></script>
+    <script>
+        function loremipsun() {
+            alert("Lorem Ipsun");
+        }
+    </script>
+    <!-- Smooth scroll -->
+    <script>
+        let scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 500,
+            speedAsDuration: true,
+            easing: 'Linear'
+        });
+ // Easing pattern to use
+    </script>
+    <!-- Smooth scroll end -->
+
+    <script>
+        /*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
+        initComparisons();
+    </script>
+
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "300px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+
+        }
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
