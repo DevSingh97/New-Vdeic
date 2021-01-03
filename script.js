@@ -8,7 +8,7 @@ var btn2 = document.getElementById("btn2");
 
 var bn = document.getElementById("mbt");
 var bn1 = document.getElementById("mbt1");
-
+var bn2 = document.getElementById("mbt2");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
@@ -17,6 +17,9 @@ btn2.onclick = function() {
   modal.style.display = "block";
 }
 
+bn2.onclick = function() {
+  modal.style.display = "block";
+}
 bn1.onclick = function() {
   modal.style.display = "block";
 }
