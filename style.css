@@ -2868,7 +2868,7 @@ header {
     
 .modal { /* Hidden by default */
     position: absolute; /* Stay in place */
-    display: initial;
+    display: none;
     z-index: 11111;
     width: 100%; /* Full width */
     height: 200%; /* Full height */ /* Enable scroll if needed */
